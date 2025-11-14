@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+
+
+@theme {
+  
+}
+
+
+:root {
+  font-family: 'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: 0.1px;
+}
+
+/* Dark Mode (Automatic based on system preference) */
+@media (prefers-color-scheme: dark) {
+  
+}
+
+body {
+  background-color: var(--app-color-bg);
+  color: var(--app-color-text-primary);
+  margin: 0;
+  padding: 0;
+}
